@@ -1,0 +1,19 @@
+.box {
+  min-height: 180px;
+  max-width: 270px;
+}
+.fa-trash {
+  position: relative;
+  left: 200px;
+  top: 20px;
+  color: #f1c40f;
+  background-color: white;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+.fa-trash:hover {
+  background-color: #f1c40f;
+  color: white;
+}

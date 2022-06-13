@@ -1,0 +1,29 @@
+.note,
+.title {
+  outline: none;
+  border: none;
+  resize: none;
+}
+.title {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+.title::placeholder {
+  color: rgb(175, 171, 171);
+  font-weight: normal;
+}
+.fa-plus {
+  position: relative;
+  left: 420px;
+  top: 15px;
+  color: #f1c40f;
+  background-color: white;
+  padding: 8px;
+  border-radius: 50%;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+.fa-plus:hover {
+  background-color: #f1c40f;
+  color: white;
+}
